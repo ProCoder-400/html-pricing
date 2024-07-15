@@ -1,0 +1,134 @@
+body{
+    background-color: #f7f7f7;
+}
+.head{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    color: #40534C;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    color: #40534C;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.head > p{
+    font-size: 1.3rem;
+}
+
+.intro{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 20px 0px
+}
+
+.intro>p{
+    font-family: "Arsenal SC", sans-serif;
+    color: #40534C;
+    font-size: 1.2rem;
+}
+
+.courses{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 20px 0px;
+}
+
+.courses > ul{
+    color: #40534C;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px
+}
+
+.prices>p{
+    font-family: "Arsenal SC", sans-serif;
+    color: #40534C;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-plan{
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #40534C;
+    flex-basis: 20%;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.plan-title{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.plan-price{
+    font-size: 2rem;
+}
+
+.plan-features{
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.plan-features>li{
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.plan-button{
+    background-color: #f2f2f2;
+    border:0;
+    border-radius: 5px;
+    padding: 5px;
+}
+footer{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px;
+    color: #40534C;
+    font-family: "Arsenal SC", sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+@media (max-width:900px){
+    .courses>ul{
+        text-wrap: wrap;
+    }
+    .pricing-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .pricing-plan{
+        min-width: 300px;
+
+    }
+}
